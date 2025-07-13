@@ -1,25 +1,24 @@
-# DataWarehouseProject
+📊 Projet Data Warehouse et Analytics avec SQL Server
 
----
-# Data Warehouse and Analytics Project with SQL Server
+Ce projet illustre le développement complet d’une solution de data warehouse et d’analyse de données, visant à centraliser et transformer des données provenant de multiples sources pour fournir des insights métiers pertinents. Il démontre l’application des bonnes pratiques de l’industrie en ingénierie des données et en business intelligence.
+🧱 Architecture des données
 
-This project showcases the end-to-end development of a data warehousing and analytics solution aimed at consolidating and transforming data from multiple sources to deliver meaningful business insights. It serves as a demonstration of industry best practices in data engineering and business intelligence.
+La solution est conçue selon le modèle Medallion Architecture, structurée en trois couches successives :
 
-### Data Architecture:
+    Couche Bronze : couche d’ingestion des données brutes où les fichiers sources (CSV) sont chargés dans SQL Server dans leur format d’origine.
 
-The solution is built following the Medallion Architecture, structured into three progressive layers:
+    Couche Silver : couche de nettoyage et de normalisation des données pour améliorer leur qualité et leur cohérence.
 
-* **Bronze Layer**: Raw data ingestion layer where source data (CSV files) is loaded into SQL Server in its original form.
-* **Silver Layer**: Data cleansing and normalization layer to enhance data quality and consistency.
-* **Gold Layer**: Final business-ready layer, featuring data modeled in a star schema optimized for analytical queries and reporting.
+    Couche Gold : couche finale orientée métier, où les données sont modélisées en schéma en étoile (star schema), optimisées pour les requêtes analytiques et la visualisation.
 
-### Project Highlights:
+✨ Points clés du projet
 
-This project covers:
+Le projet inclut :
 
-* Designing a modern multi-layered data warehouse architecture.
-* Developing robust ETL pipelines to extract, transform, and load data across layers.
-* Building fact and dimension tables optimized for analytics.
-* Creating SQL-based reports and dashboards to generate actionable insights for decision makers.
+    La conception d’une architecture data warehouse moderne et multi-couches.
 
+    Le développement de pipelines ETL robustes pour extraire, transformer et charger les données entre les couches.
 
+    La création de tables de faits et tables de dimensions optimisées pour l’analyse.
+
+    La génération de rapports SQL et de dashboards analytiques pour faciliter la prise de décision.
